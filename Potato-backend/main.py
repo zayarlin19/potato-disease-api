@@ -26,7 +26,7 @@ app.add_middleware(
 )
 
 # Load TensorFlow model
-MODEL = tf.keras.models.load_model("C:/Users/User/Desktop/lecture_python/PotatoDiseaseApp/backend/saved_models/1")  # Adjust path
+MODEL = tf.keras.models.load_model("C:/Users/User/Desktop/lecture_python/Potato-backend/saved_models/1")  # Adjust path
 CLASS_NAMES = ["Early Blight", "Late Blight", "Healthy"]
 
 # MongoDB setup (optional)
